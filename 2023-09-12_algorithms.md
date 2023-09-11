@@ -32,7 +32,7 @@ You **do not** need a computer for today's tutorial. Your instructor will assign
 
     You may assume the following arithmetic operations are available: +, –, ×, div and mod. "x div y" gives the whole quotient of x ÷ y, whereas "x mod y" gives the remainder.
 
-3. Study the following algorithm. To help see what it does, trace it using as input: 7, 3, 8, 10, 4. Concisely but precisely, describe (a) its input, (b) its corresponding output and (c) the function it implements. Describe any assumptions made by the algorithm’s designer about the format of the input.
+3. Study the following algorithm, meant to run on a computer that can "read" inputs from some source, and "write" outputs to some destination. To see what it does, *trace* it (that is, follow it exactly step-by-step) using the input sequence: 7, 3, 8, 10, 4. Concisely but precisely, describe (a) its input, (b) its corresponding output and (c) it's purpose (the function it implements). Describe any assumptions made by the algorithm’s designer about the format of the input.
 
     ```
     read largest
