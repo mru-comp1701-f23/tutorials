@@ -94,3 +94,4 @@ Try planning out the following exercises by hand, then implementing in a Python 
     where $s$ is the semiperimeter of the triangle:
     
     $$s = \frac{a + b + c}{2}$$
+   remember that you can use powers to calculate a square root: $$\sqrt{x} = x^{\frac{1}{2}}$$
