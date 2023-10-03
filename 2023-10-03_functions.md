@@ -46,9 +46,7 @@ In partners or small groups, work through the following problems **by hand**. Ho
 The following programs do not work. Try to figure out what is wrong by hand first, but you may use VS Code to debug and fix them. 
 
 1. This program should display the hypotenuse of a right-angle triangle, given one angle in degrees and the length of one side.
-    ```python
-    import math
-    
+    ```python    
     def hypotenuse(angle: float, side: float) -> None:
         hyp = side / math.sin(math.radians(angle))
         print(f"The hypotenuse is {hyp:.2f}.")
