@@ -47,6 +47,8 @@ The following programs do not work. Try to figure out what is wrong by hand firs
 
 1. This program should display the hypotenuse of a right-angle triangle, given one angle in degrees and the length of one side.
     ```python
+    import math
+    
     def hypotenuse(angle: float, side: float) -> None:
         hyp = side / math.sin(math.radians(angle))
         print(f"The hypotenuse is {hyp:.2f}.")
